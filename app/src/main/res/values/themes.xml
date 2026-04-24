@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ARTracer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/fg_on_accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/fg_on_accent</item>
+        <item name="colorSurface">@color/bg_chrome_solid</item>
+        <item name="colorOnSurface">@color/fg_primary</item>
+        <item name="android:colorBackground">@color/bg_black</item>
+        <item name="android:windowBackground">@color/bg_black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:textColorPrimary">@color/fg_primary</item>
+        <item name="android:textColorSecondary">@color/fg_muted</item>
+    </style>
+
+    <style name="Theme.ARTracer.Fullscreen" parent="Theme.ARTracer">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+    <style name="ChipButton" parent="Widget.Material3.Button.IconButton">
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:textColor">@color/fg_primary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="rippleColor">@color/accent_dim</item>
+    </style>
+
+    <style name="ChipButton.Primary">
+        <item name="android:background">@drawable/bg_chip_primary</item>
+        <item name="android:textColor">@color/fg_on_accent</item>
+    </style>
+</resources>

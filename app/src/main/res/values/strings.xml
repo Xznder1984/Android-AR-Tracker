@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AR Tracer</string>
+
+    <string name="permission_camera_rationale">AR Tracer needs camera access to show the live preview your image will overlay onto.</string>
+    <string name="permission_camera_denied">Camera permission is required to use AR Tracer. Enable it from system settings.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="grant">Grant</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="action_pick_image">Pick image</string>
+    <string name="action_lock">Lock</string>
+    <string name="action_unlock">Unlock</string>
+    <string name="action_grid">Grid</string>
+    <string name="action_flip">Flip</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_fullscreen">Fullscreen</string>
+    <string name="action_screenshot">Capture</string>
+
+    <string name="hint_no_image">Tap “Pick image” to load a reference</string>
+    <string name="opacity_label">Opacity</string>
+
+    <string name="screenshot_saved">Saved to Pictures/AR Tracer</string>
+    <string name="screenshot_failed">Could not save screenshot</string>
+    <string name="image_load_failed">Could not load that image</string>
+</resources>

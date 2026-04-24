@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#FF000000</color>
+    <color name="bg_chrome">#CC101114</color>
+    <color name="bg_chrome_solid">#FF101114</color>
+    <color name="bg_chip">#33FFFFFF</color>
+    <color name="bg_chip_active">#FFE1FF55</color>
+
+    <color name="fg_primary">#FFF5F6F8</color>
+    <color name="fg_muted">#FFB6BAC4</color>
+    <color name="fg_on_accent">#FF101114</color>
+
+    <color name="accent">#FFE1FF55</color>
+    <color name="accent_dim">#66E1FF55</color>
+
+    <color name="divider">#22FFFFFF</color>
+    <color name="grid_line">#66FFFFFF</color>
+    <color name="grid_line_strong">#AAFFFFFF</color>
+</resources>
